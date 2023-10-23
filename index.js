@@ -8,6 +8,9 @@ const statNumbers = document.querySelectorAll(".stat-number");
 const mainTiles = document.querySelectorAll(".main-dashboard-tile")
 const overviewTiles = document.querySelectorAll(".overview-dashboard-tile")
 
+toggle.click();
+lightMode();
+
 toggle.addEventListener("click", ()=>{
     lightMode();
 })
