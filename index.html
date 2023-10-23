@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <!--  -->
+  <title>Frontend Mentor | Social Media Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+
+    <header>
+      <div class="header-title">
+        <h1 class="header-title-h1">Social Media Dashboard</h1>
+        <span>Total Followers: 23,004</span>
+      </div>
+      <hr class="hr">
+      <div class="dark-mode-container">
+        <span class="dark-mode-span">Dark Mode</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round toggle"></span>
+        </label>
+      </div>
+    </header>
+
+    <section class="main-dashboard">
+      <div class="main-dashboard-tile facebook">
+        <div class="main-dashboard-tile-username-container">
+          <img src="images/icon-facebook.svg" alt="Facebook icon">
+          <span>@nathanf</span>
+        </div>
+        <strong class="stat-number">1987</strong>
+        <span class="span-followers">Followers</span>
+        <div class="main-dashboard-tile-bottom">
+          <img src="images/icon-up.svg" alt="arrow up icon">
+          <span class="green">12 Today</span>
+        </div>
+      </div>
+      <div class="main-dashboard-tile twitter">
+        <div class="main-dashboard-tile-username-container">
+          <img src="images/icon-twitter.svg" alt="Twitter icon">
+          <span>@nathanf</span>
+        </div>
+        <strong class="stat-number">1044</strong>
+        <span class="span-followers">Followers</span>
+        <div class="main-dashboard-tile-bottom">
+          <img src="images/icon-up.svg" alt="arrow up icon">
+          <span class="green">99 Today</span>
+        </div>
+      </div>
+      <div class="main-dashboard-tile instagram">
+        <div class="main-dashboard-tile-username-container">
+          <img src="images/icon-instagram.svg" alt="Instagram icon">
+          <span>@realnathanf</span>
+        </div>
+        <strong class="stat-number">11k</strong>
+        <span class="span-followers">Followers</span>
+        <div class="main-dashboard-tile-bottom">
+          <img src="images/icon-up.svg" alt="arrow up icon">
+          <span class="green">1099 Today</span>
+        </div>
+      </div>
+      <div class="main-dashboard-tile youtube">
+        <div class="main-dashboard-tile-username-container">
+          <img src="images/icon-youtube.svg" alt="Youtube icon">
+          <span>Nathan F.</span>
+        </div>
+        <strong class="stat-number">8239</strong>
+        <span class="span-followers">Subscribers</span>
+        <div class="main-dashboard-tile-bottom">
+          <img src="images/icon-down.svg" alt="arrow down icon">
+          <span class="red">144 Today</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="overview-dashboard">
+      <h2 class="overview-dashboard-title">Overview - Today</h2>
+      <div class="overview-grid">
+        <div class="overview-dashboard-tile">
+          <div class="overview-dashboard-tile-top">
+            <span>Page Views</span>
+            <img src="images/icon-facebook.svg" alt="Facebook icon">
+          </div>
+          <div class="overview-dashboard-tile-bottom">
+            <strong class="stat-number">87</strong>
+            <div class="tile-flex">
+              <img src="images/icon-up.svg" alt="arrow up icon">
+              <span class="green">3%</span>
+            </div>
+          </div>
+        </div>
+        <div class="overview-dashboard-tile">
+          <div class="overview-dashboard-tile-top">
+            <span>Likes</span>
+            <img src="images/icon-facebook.svg" alt="Facebook icon">
+          </div>
+          <div class="overview-dashboard-tile-bottom">
+            <strong class="stat-number">52</strong>
+            <div class="tile-flex">
+              <img src="images/icon-down.svg" alt="arrow down icon">
+              <span class="red">2%</span>
+            </div>
+          </div>
+        </div>
+        <div class="overview-dashboard-tile">
+          <div class="overview-dashboard-tile-top">
+            <span>Likes</span>
+            <img src="images/icon-instagram.svg" alt="Instagram icon">
+          </div>
+          <div class="overview-dashboard-tile-bottom">
+            <strong class="stat-number">5462</strong>
+            <div class="tile-flex">
+              <img src="images/icon-up.svg" alt="arrow up icon">
+              <span class="green">2257%</span>
+            </div>
+          </div>
+        </div>
+        <div class="overview-dashboard-tile">
+          <div class="overview-dashboard-tile-top">
+            <span>Profile Views</span>
+            <img src="images/icon-instagram.svg" alt="Instagram icon">
+          </div>
+          <div class="overview-dashboard-tile-bottom">
+            <strong class="stat-number">52k</strong>
+            <div class="tile-flex">
+              <img src="images/icon-up.svg" alt="arrow up icon">
+              <span class="green">1375%</span>
+            </div>
+          </div>
+        </div>
+        <div class="overview-dashboard-tile">
+          <div class="overview-dashboard-tile-top">
+            <span>Retweets</span>
+            <img src="images/icon-twitter.svg" alt="Twitter icon">
+          </div>
+          <div class="overview-dashboard-tile-bottom">
+            <strong class="stat-number">117</strong>
+            <div class="tile-flex">
+              <img src="images/icon-up.svg" alt="arrow up icon">
+              <span class="green">303%</span>
+            </div>
+          </div>
+        </div>
+        <div class="overview-dashboard-tile">
+          <div class="overview-dashboard-tile-top">
+            <span>Likes</span>
+            <img src="images/icon-twitter.svg" alt="Twitter icon">
+          </div>
+          <div class="overview-dashboard-tile-bottom">
+            <strong class="stat-number">507</strong>
+            <div class="tile-flex">
+              <img src="images/icon-up.svg" alt="arrow up icon">
+              <span class="green">553%</span>
+            </div>
+          </div>
+        </div>
+        <div class="overview-dashboard-tile">
+          <div class="overview-dashboard-tile-top">
+            <span>Likes</span>
+            <img src="images/icon-youtube.svg" alt="Youtube icon">
+          </div>
+          <div class="overview-dashboard-tile-bottom">
+            <strong class="stat-number">107</strong>
+            <div class="tile-flex">
+              <img src="images/icon-down.svg" alt="arrow down icon">
+              <span class="red">19%</span>
+            </div>
+          </div>
+        </div>
+        <div class="overview-dashboard-tile">
+          <div class="overview-dashboard-tile-top">
+            <span>Total Views</span>
+            <img src="images/icon-youtube.svg" alt="Youtube icon">
+          </div>
+          <div class="overview-dashboard-tile-bottom">
+            <strong class="stat-number">1407</strong>
+            <div class="tile-flex">
+              <img src="images/icon-down.svg" alt="arrow down icon">
+              <span class="red">12%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
