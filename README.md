@@ -4,7 +4,7 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL: https://lucent-pony-950c01.netlify.app/
 
 ### Screenshot
 
